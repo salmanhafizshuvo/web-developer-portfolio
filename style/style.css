@@ -17,6 +17,17 @@
     font-size: 20px;
     padding: 15px 35px;
 }
+.section-title{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700 ;
+}
+.section-des{
+    padding-top: 20px;
+    color: #181818;
+    text-align: center;
+    font-size: 18px;
+}
 nav{
     display: flex;
     justify-content: space-between;
@@ -42,12 +53,37 @@ nav a{
 }
 .header{
     background-color: #bd6ff187;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .banner .pp{
     width: 500px;
+}
+.bannerf{
+    font-size: 45px;
+    color: #181818;
+    margin-bottom: 0;
+}
+.banners{
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.bannert{
+    max-width: 500px;
+    padding: 0px 0px 20px 0px;
+}
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background: #bd6ff12d;
+    margin: 130px;
 }
