@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Tektur', sans-serif;
+    font-family: 'Exo 2', sans-serif;
+}
+.textPrimary{
+    color: #52057B;
+}
+.btnPrimary{
+    border-radius: 5px;
+    background: #52057B ;
+    border: 0;
+    color: #BC6FF1;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 15px 35px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.nav-title{
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+}
+nav > ul {
+    display: flex;
+    align-items: center;
+} 
+nav li {
+    list-style: none;
+    margin-left: 50px;
+}
+nav a{
+    text-decoration: none;
+    color: #181818;
+}
