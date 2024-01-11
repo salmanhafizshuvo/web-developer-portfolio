@@ -188,3 +188,58 @@ footer{
     text-align: left;
     padding-bottom: 20px;
 }
+
+/* mobile res */
+.hide{
+    display: none;
+}
+@media screen and (max-width:576px) {
+    .header{
+        background-image: none;
+    }
+    .banner .pp{
+        padding: 10px;
+        width: 100%;
+    }
+    .skills, footer, .about-info , nav ,.banner , .resume-container{
+        flex-direction: column;
+    }
+    .skills{
+        padding-bottom: 10px;
+    }
+    .section-title{
+        padding-top: 40px;
+    }
+    .resumetitle{
+        padding: 40px;
+        font-size: 20px;
+    }
+    .resume-container{
+        padding: 10px 0;
+    }
+    #whatidoses{
+        padding: 20px;
+        margin: 0px 10px;
+    }
+    footer , .about ,.banner{
+        padding: 30px;
+    }
+    .about{
+        margin: 20px 20px;
+    }
+    .skills  {
+        margin: 0 50px;
+        display: flex;
+    }
+    .skill-title{
+        padding: 10px 0px;
+        text-align: center;
+    }
+    .skill img {
+        margin: 0 auto;
+        display: block;
+    }
+    .footer-colum{
+        width: 100%;
+    }
+}
